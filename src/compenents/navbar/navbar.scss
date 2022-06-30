@@ -1,0 +1,23 @@
+@import "../../styles/common.scss";
+
+.navbar {
+  padding-top: 16px;
+  .navbarContainer {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    .menu {
+      margin-left: auto;
+      a {
+        color:$secondary-color;
+        @include  typeface-medium-16($line-height: 20px);
+        padding-right: 48px;
+      }
+      a:last-child{
+        border: 1px solid $primary-color;
+        padding:14px 32px;
+        border-radius: 56px;
+      }
+    }
+  }
+}

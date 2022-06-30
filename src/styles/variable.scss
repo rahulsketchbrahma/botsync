@@ -1,0 +1,94 @@
+$primary-color: #ef7e30;
+$secondary-color: #ffffff;
+$linear-gradient: linear-gradient(
+  180deg,
+  rgba(21, 20, 23, 0.6) 12.63%,
+  rgba(21, 20, 23, 0.48) 100%
+);
+
+//colors
+$color-black-1: #1d2227;
+$color-black-2: #5e5d5d;
+$color-black-3: #d4d4d4;
+$color-black-4: #151417;
+
+//fontsize
+$fontsize-64: 6.4rem;
+$fontsize-32: 3.2rem;
+$fontsize-24: 2.4rem;
+$fontsize-20: 2rem;
+$fontsize-18: 1.8rem;
+$fontsize-16: 1.6rem;
+$fontsize-14: 1.4rem;
+$fontsize-13: 1.3rem;
+
+//font family
+@font-face {
+  font-family: "avenir-roman";
+  src: url("../assets/fonts/avenir-roman.ttf");
+}
+
+@font-face {
+  font-family: "avenir-regular";
+  src: url("../assets/fonts/avenir-regular.ttf");
+}
+
+@font-face {
+  font-family: "avenir-medium";
+  src: url("../assets/fonts/avenir-medium.ttf");
+}
+
+@font-face {
+  font-family: "avenir-heavy";
+  src: url("../assets/fonts/avenir-heavy.ttf");
+}
+
+// ******   typeface  ****** //
+@mixin typeface-bold-64($line-height: 88px) {
+  font-weight: 800;
+  font-size: $fontsize-64;
+  line-height: $line-height;
+}
+@mixin typeface-bold-32($line-height: 48px) {
+  font-weight: 800;
+  font-size: $fontsize-32;
+  line-height: $line-height;
+}
+@mixin typeface-bold-24($line-height: 32px) {
+  font-weight: 800;
+  font-size: $fontsize-24;
+  line-height: $line-height;
+}
+@mixin typeface-bold-20($line-height: 28px) {
+  font-weight: 800;
+  font-size: $fontsize-20;
+  line-height: $line-height;
+}
+@mixin typeface-bold-18($line-height: 20px) {
+  font-weight: 800;
+  font-size: $fontsize-18;
+  line-height: $line-height;
+}
+// medium typeface
+@mixin typeface-medium-16($line-height: 24px) {
+  font-weight: 500;
+  font-size: $fontsize-16;
+  line-height: $line-height;
+}
+// regular typeface
+@mixin typeface-regular-14($line-height: 20px) {
+  font-weight: 400;
+  font-size: $fontsize-14;
+  line-height: $line-height;
+}
+@mixin typeface-regular-14($line-height: 20px) {
+  font-weight: 400;
+  font-size: $fontsize-14;
+  line-height: $line-height;
+}
+@mixin typeface-regular-13($line-height: 17px) {
+  font-weight: 400;
+  font-size: $fontsize-13;
+  line-height: $line-height;
+}
+// ****** end of typeface  ****** //
