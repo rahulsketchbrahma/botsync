@@ -6,6 +6,8 @@ import OurValues from "./sections/ourValues";
 import OurAdvisors from "./sections/ourAdvisors";
 import JoinTeam from "./sections/joinTeam";
 import Partners from "./sections/partners";
+import Footer from "../../compenents/footer";
+
 
 const AboutUs = () => {
   return (
@@ -16,6 +18,7 @@ const AboutUs = () => {
       <OurAdvisors />
       <JoinTeam />
       <Partners />
+      <Footer/>
     </>
   );
 };

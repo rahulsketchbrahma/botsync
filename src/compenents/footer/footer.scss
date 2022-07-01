@@ -1,0 +1,140 @@
+@import "../../styles/common.scss";
+
+.footer {
+  padding: 80px 0px 40px 0px;
+  color: $secondary-color;
+  background-color: $color-black-4;
+  .group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 48px;
+    .content {
+      flex: 50%;
+      .contentWrapper {
+        max-width: 420px;
+        width: 100%;
+      }
+      h1 {
+        @include typeface-bold-32;
+      }
+      h6 {
+        @include typeface-medium-16($line-height: 24px);
+        padding-bottom: 64px;
+      }
+      .contactDetails {
+        .emailDetails,
+        .callDetails {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding-bottom: 24px;
+          p {
+            @include typeface-regular-16;
+          }
+        }
+      }
+    }
+    .form {
+      flex: 50%;
+    }
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0px 46px 0px;
+    border: 1px solid $color-blue-1;
+    border-width: 1px 0px 1px 0px;
+    .infoContent {
+      img {
+        padding-bottom: 24px;
+      }
+      p {
+        @include typeface-regular-16;
+        color: $color-black-7;
+        padding-bottom: 24px;
+        max-width: 280px;
+        width: 100%;
+      }
+      .teamLogo {
+        display: flex;
+        gap: 10px;
+      }
+    }
+    .links {
+      h6 {
+        @include typeface-medium-bold-16;
+        padding-bottom: 24px;
+      }
+      a {
+        display: block;
+        color: $color-black-3;
+        padding-bottom: 10px;
+        @include typeface-regular-14;
+      }
+    }
+  }
+  .contact {
+    h6 {
+      @include typeface-medium-bold-16;
+      padding-bottom: 24px;
+    }
+    .locations {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding-bottom: 17px;
+      p {
+        color: $color-black-3;
+        padding-bottom: 10px;
+        @include typeface-regular-14;
+        max-width: 229px;
+        width: 100%;
+      }
+    }
+    .location {
+      display: flex;
+      gap: 6px;
+      align-items: start;
+      p {
+        color: $primary-color;
+        padding-bottom: 10px;
+        @include typeface-regular-14;
+      }
+    }
+  }
+  .latest {
+    h6 {
+      @include typeface-medium-bold-16;
+      padding-bottom: 24px;
+    }
+    .content{
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding-bottom: 16px;
+      h5{
+        color: $color-black-3;
+        padding-bottom:4px;
+        @include typeface-regular-14($line-height:17px);
+        max-width: 240px;
+        width: 100%;
+      }
+      p{
+        @include  typeface-medium-13;
+      }
+    }
+  }
+  .copyRights{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 32px 0px;
+    p{
+      @include  typeface-medium-13;
+    }
+  }
+  .policy{
+    display: flex;
+    justify-content: space-between;
+  }
+}

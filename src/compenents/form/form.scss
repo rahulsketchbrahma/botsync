@@ -1,0 +1,57 @@
+@import "../../styles/common.scss";
+
+.formContainer {
+  .block {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 32px;
+    label {
+      @include typeface-medium-16($line-height: 22px);
+    }
+    .inputBlock {
+      width: 100%;
+      max-width: 280px;
+      border: 1px solid $color-black-5;
+      background:$color-black-6;
+      border-radius: 6px;
+      margin-top: 10px;
+      input {
+        border: none;
+        background-color: transparent;
+        padding: 16px 159px 16px 16px;
+        outline: none;
+      }
+    }
+
+    .messageBlock {
+      width: 100%;
+      border: 1px solid $color-black-5;
+      background:$color-black-6;
+      border-radius: 6px;
+      margin-top: 10px;
+      textarea {
+        max-width: 592px;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        padding: 16px 159px 16px 16px;
+        outline: none;
+        &::-webkit-input-placeholder {
+          font-family: "avenir-regular";
+        }
+      }
+    }
+    &:last-child {
+      display: block;
+    }
+  }
+  button {
+    background-color: $primary-color;
+    color: $secondary-color;
+    @include typeface-medium-16;
+    border: 1px solid $primary-color;
+    border-radius: 56px;
+    padding: 14px 54px;
+  }
+}

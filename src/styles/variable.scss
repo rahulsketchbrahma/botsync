@@ -11,6 +11,11 @@ $color-black-1: #1d2227;
 $color-black-2: #5e5d5d;
 $color-black-3: #d4d4d4;
 $color-black-4: #151417;
+$color-black-5: #414141;
+$color-black-6: #272727;
+$color-black-7: #d5d5d5;
+
+$color-blue-1: #c0e0ff;
 
 //fontsize
 $fontsize-64: 6.4rem;
@@ -69,14 +74,24 @@ $fontsize-13: 1.3rem;
   font-size: $fontsize-18;
   line-height: $line-height;
 }
+@mixin typeface-medium-bold-16($line-height: 24px) {
+  font-weight: 800;
+  font-size: $fontsize-16;
+  line-height: $line-height;
+}
 // medium typeface
 @mixin typeface-medium-16($line-height: 24px) {
   font-weight: 500;
   font-size: $fontsize-16;
   line-height: $line-height;
 }
+@mixin typeface-medium-13($line-height: 18px) {
+  font-weight: 500;
+  font-size: $fontsize-13;
+  line-height: $line-height;
+}
 // regular typeface
-@mixin typeface-regular-14($line-height: 20px) {
+@mixin typeface-regular-16($line-height: 26px) {
   font-weight: 400;
   font-size: $fontsize-14;
   line-height: $line-height;
