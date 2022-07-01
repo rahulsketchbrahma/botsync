@@ -18,8 +18,10 @@
       margin-top: 10px;
       input {
         border: none;
+        width: 280px;
+        max-width: 100%;
         background-color: transparent;
-        padding: 16px 159px 16px 16px;
+        padding: 16px 0px 16px 16px;
         outline: none;
       }
     }

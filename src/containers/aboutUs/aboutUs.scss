@@ -34,14 +34,16 @@
     gap: 40px;
   }
   .group {
-    flex: 1;
+    flex: 50%;
   }
   .imageWrapper {
     width: 564px;
     height: 488px;
-    flex: 1;
+    flex: 50%;
 
     img {
+      width: 100%;
+      height: 100%;
       border-radius: 6px;
       object-fit: contain;
     }
@@ -127,8 +129,8 @@
     display: flex;
     justify-content: center;
     padding: 24px 24px 0px 24px;
-    
-    img{
+
+    img {
       width: 232px;
       height: 232px;
     }
