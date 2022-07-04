@@ -93,7 +93,7 @@ $fontsize-13: 1.3rem;
 // regular typeface
 @mixin typeface-regular-16($line-height: 26px) {
   font-weight: 400;
-  font-size: $fontsize-14;
+  font-size: $fontsize-16;
   line-height: $line-height;
 }
 @mixin typeface-regular-14($line-height: 20px) {

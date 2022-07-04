@@ -9,6 +9,7 @@
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 48px;
+
     .footerContent {
       flex: 50%;
       .footerSchedule {
@@ -72,9 +73,9 @@
         @include typeface-regular-14;
       }
     }
-    ul{
+    ul {
       display: flex;
-      gap:16px;
+      gap: 16px;
     }
   }
   .contact {
@@ -111,39 +112,56 @@
       @include typeface-medium-bold-16;
       padding-bottom: 24px;
     }
-    .content{
+    .content {
       display: flex;
       align-items: flex-start;
       gap: 8px;
       padding-bottom: 16px;
-      h5{
+      h5 {
         color: $color-black-3;
-        padding-bottom:4px;
-        @include typeface-regular-14($line-height:17px);
+        padding-bottom: 4px;
+        @include typeface-regular-14($line-height: 17px);
         max-width: 240px;
         width: 100%;
       }
-      p{
-        @include  typeface-medium-13;
+      p {
+        @include typeface-medium-13;
       }
     }
   }
-  .copyRights{
+  .copyRights {
     display: flex;
     justify-content: space-between;
     padding: 24px 0px 32px 0px;
-    p{
-      @include  typeface-medium-13;
+    @media only screen and (max-width: 576px) {
+      flex-direction: column;
+      text-align: center;
+    }
+    p {
+      @include typeface-medium-13;
+      @media only screen and (max-width: 576px) {
+        padding-bottom: 10px;
+      }
     }
   }
-  .policy ul{
+  .policy ul {
     display: flex;
     justify-content: space-between;
-    gap:24px;
-    p{
-
-    
-    color: $secondary-color;
+    gap: 24px;
+    @media only screen and (max-width: 576px) {
+      flex-direction: column;
+      gap: 14px;
+    }
+    p {
+      color: $secondary-color;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .footerGroup {
+      flex-direction: column;
+    }
+    .footerInfo {
+      flex-wrap: wrap;
     }
   }
 }

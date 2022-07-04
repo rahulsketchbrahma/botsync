@@ -6,16 +6,26 @@
     justify-content: space-between;
     gap: 32px;
     margin-bottom: 32px;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
     label {
       @include typeface-medium-16($line-height: 22px);
     }
     .inputBlock {
-      width: 100%;
-      max-width: 280px;
+      max-width: 100%;
+      width: 280px;
       border: 1px solid $color-black-5;
-      background:$color-black-6;
+      background: $color-black-6;
       border-radius: 6px;
       margin-top: 10px;
+      @media only screen and (max-width: 992px) {
+        width: 200px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
       input {
         border: none;
         width: 280px;
@@ -29,7 +39,7 @@
     .messageBlock {
       width: 100%;
       border: 1px solid $color-black-5;
-      background:$color-black-6;
+      background: $color-black-6;
       border-radius: 6px;
       margin-top: 10px;
       textarea {
@@ -55,5 +65,8 @@
     border: 1px solid $primary-color;
     border-radius: 56px;
     padding: 14px 54px;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 }

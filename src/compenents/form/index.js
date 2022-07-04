@@ -7,13 +7,13 @@ function Forms() {
       <div className="formContainer">
         <form>
           <div className="block">
-            <div>
+            <div className="formBlockContainer">
               <label htmlFor="input">Full Name*</label>
               <div className="inputBlock">
                 <input id="input" type="text" placeholder="Enter your name" />
               </div>
             </div>
-            <div>
+            <div className="formBlockContainer">
               <label htmlFor="input">Company Name*</label>
               <div className="inputBlock">
                 <input
@@ -25,13 +25,13 @@ function Forms() {
             </div>
           </div>
           <div className="block">
-            <div>
+            <div className="formBlockContainer">
               <label htmlFor="input">Email Id*</label>
               <div className="inputBlock">
                 <input id="input" type="text" placeholder="xyz@example.com" />
               </div>
             </div>
-            <div>
+            <div className="formBlockContainer">
               <label htmlFor="input">Phone Number*</label>
               <div className="inputBlock">
                 <input
