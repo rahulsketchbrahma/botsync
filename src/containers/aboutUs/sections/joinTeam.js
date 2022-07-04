@@ -7,8 +7,8 @@ function JoinTeam() {
     <section className="joinTeam">
       <div className="container">
         <div className="joinTeamContainer">
-          <div className="content">
-            <div className="group">
+          <div className="joinTeamContent">
+            <div className="joinTeamGroup">
               <h1>Join our team</h1>
               <p>
                 We are a bunch of fun and passionate people working together to
@@ -17,13 +17,13 @@ function JoinTeam() {
                 you. Are you passionate about building robots in a fast-paced
                 robotics startup?
               </p>
-              <h6>
+              <p>
                 We would love to hear from you! Drop us an email at
                 <span>recruitment@botsync.co</span> or apply through following
                 links if you are interested to join our close-knit team of
                 roboticists here at Botsync.
-              </h6>
-              <div className="teamLogo">
+              </p>
+              <div className="joinTeamLogo">
                 <img src={angelist} />
                 <img src={angelist} />
                 <img src={angelist} />

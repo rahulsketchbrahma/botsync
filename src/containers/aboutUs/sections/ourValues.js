@@ -16,8 +16,8 @@ const OurValues = () => {
               that they are in line with our company values
             </p>
           </div>
-          <div className="group">
-            <div className="content">
+          <div className="ourValuesGroup">
+            <div className="ourValuesContent">
               <div className="imageWrapper">
                 <img src={icon} alt="" />
               </div>
@@ -30,7 +30,7 @@ const OurValues = () => {
                 </p>
               </div>
             </div>
-            <div className="content">
+            <div className="ourValuesContent">
               <div className="imageWrapper">
                 <img src={customerCentric} alt="" />
               </div>
@@ -44,9 +44,7 @@ const OurValues = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="group">
-            <div className="content">
+            <div className="ourValuesContent">
               <div className="imageWrapper">
                 <img src={safety} alt="" />
               </div>
@@ -58,7 +56,7 @@ const OurValues = () => {
                 </p>
               </div>
             </div>
-            <div className="content">
+            <div className="ourValuesContent">
               <div className="imageWrapper">
                 <img src={last} alt="" />
               </div>

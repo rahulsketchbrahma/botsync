@@ -5,7 +5,7 @@ import Logo from "../../assets/images/navbar/botsyncLogo.png";
 
 const Navbar = () => {
   return (
-    <section className="navbar">
+    <header className="navbar">
       <div className="container">
         <div className="navbarContainer">
           <img src={Logo} />
@@ -19,7 +19,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

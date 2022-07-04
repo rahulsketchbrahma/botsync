@@ -10,9 +10,9 @@ const About = () => {
           <div className="imageWrapper">
             <img src={aboutimage} alt="" />
           </div>
-          <div className="group">
-            <div className="content">
-              <h1>About Us</h1>
+          <div className="aboutUsGroup">
+            <div className="aboutUsContent">
+              <h6>About Us</h6>
               <p>
                 Botsync was started by 4 roboticists who wanted to turn their
                 passion for robotics into an industrial breakthrough. This
@@ -21,7 +21,8 @@ const About = () => {
                 intelligent autonomous mobile robots, we envision to become the
                 go-to automation solution provider for internal logistics
                 movement in the APAC market.
-                <br />
+              </p>
+              <p>
                 At Botsync, we believe that it's not a lack of knowledge, but a
                 lack of drive to acquire the knowledge which stands in the way
                 of building something. Our company aim to build systems that not
@@ -30,14 +31,14 @@ const About = () => {
               </p>
             </div>
             <div className="content">
-              <h1>Vision Us</h1>
+              <h6>Vision Us</h6>
               <p>
                 Building a more accessible and simplified automation solution
                 for the world.
               </p>
             </div>
             <div className="content">
-              <h1>Mission</h1>
+              <h6>Mission</h6>
               <p>
                 To be the partner of choice for intralogistics automation, by
                 building robots that are safe, reliable and most importantly

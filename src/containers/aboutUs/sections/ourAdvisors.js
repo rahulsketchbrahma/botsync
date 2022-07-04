@@ -1,7 +1,6 @@
 import React from "react";
 import customer from "../../../assets/images/aboutUs/ourAdvisors/unnamed.png";
 import customers from "../../../assets/images/aboutUs/ourAdvisors/customer.png";
-import customerTwo from "../../../assets/images/aboutUs/ourAdvisors/customerTwo.png";
 import customerThree from "../../../assets/images/aboutUs/ourAdvisors/customerThree.png";
 import person from "../../../assets/images/aboutUs/ourAdvisors/person.png";
 
@@ -18,7 +17,7 @@ const OurAdvisors = () => {
               business strategies.
             </p>
           </div>
-          <div className="group">
+          <div className="ourAdvisorsGroup">
             <div className="customerContainer">
               <div className="customerImage">
                 <img src={customer} />
@@ -72,8 +71,6 @@ const OurAdvisors = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="group">
             <div className="customerContainer">
               <div className="customerImage">
                 <img src={customers} />

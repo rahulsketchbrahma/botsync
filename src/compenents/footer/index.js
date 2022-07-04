@@ -11,12 +11,12 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="container">
         <div className="footerContainer">
-          <div className="group">
-            <div className="content">
-              <div className="contentWrapper">
+          <div className="footerGroup">
+            <div className="footerContent">
+              <div className="footerSchedule">
                 <h1>Schedule a live demo now</h1>
                 <h6>
                   Seeing is believing so we want you to see how easy it is to
@@ -29,7 +29,7 @@ const Footer = () => {
                   <img src={email} />
                   <p>sales@botsync.co</p>
                 </div>
-                <div className="callDetails">
+                <div className="emailDetails">
                   <img src={call} />
                   <p>+65 8590 4386</p>
                 </div>
@@ -39,7 +39,7 @@ const Footer = () => {
               <Forms />
             </div>
           </div>
-          <div className="info">
+          <div className="footerInfo">
             <div className="infoContent">
               <img src={Logo} />
               <p>
@@ -47,8 +47,18 @@ const Footer = () => {
                 for intralogistics operations in warehouses and factories.
               </p>
               <div className="teamLogo">
-                <img src={twitter} />
-                <img src={twitter} />
+                <ul>
+                  <li>
+                    <a href="/">
+                      <img src={twitter} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <img src={twitter} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="links">
@@ -68,7 +78,7 @@ const Footer = () => {
                     79 Joo Koon Circle Level 2 Wong Fong Building Singapore
                     629107
                   </p>
-                  <div className="location">
+                  <div className="direction">
                     <img src={arrows} />
                     <p>Get Directions</p>
                   </div>
@@ -81,7 +91,7 @@ const Footer = () => {
                     79 Joo Koon Circle Level 2 Wong Fong Building Singapore
                     629107
                   </p>
-                  <div className="location">
+                  <div className="direction">
                     <img src={arrows} />
                     <p>Get Directions</p>
                   </div>
@@ -125,13 +135,23 @@ const Footer = () => {
           <div className="copyRights">
             <p>Copyright © 2022. All rights reserved.</p>
             <div className="policy">
-              <p>Privacy Policy</p>
-              <p>Terms of Service</p>
+              <ul>
+                <li>
+                  <a href="/">
+                    <p>Privacy Policy</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <p>Terms of Service</p>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
