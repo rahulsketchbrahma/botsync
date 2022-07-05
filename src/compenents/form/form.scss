@@ -58,12 +58,7 @@
       display: block;
     }
   }
-  button {
-    background-color: $primary-color;
-    color: $secondary-color;
-    @include typeface-medium-16;
-    border: 1px solid $primary-color;
-    border-radius: 56px;
+  .commonButton {
     padding: 14px 54px;
     @media only screen and (max-width: 768px) {
       width: 100%;

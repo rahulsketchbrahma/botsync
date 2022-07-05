@@ -37,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+
     @media only screen and (max-width: 992px) {
       flex-direction: column;
       align-items: center;
@@ -106,6 +107,11 @@
         text-align: center;
         margin-bottom: 40px;
       }
+      .frame {
+        @media only screen and (max-width: 576px) {
+          max-width: 100%;
+        }
+      }
     }
     .imageWrapper {
       width: 80px;
@@ -167,7 +173,7 @@
     align-items: center;
     padding: 0px 24px;
     margin-bottom: 16px;
-    h1 {
+    h6 {
       @include typeface-bold-20($line-height: 28px);
     }
   }
@@ -257,11 +263,11 @@
     img {
       padding-bottom: 20px;
     }
-    @media only screen and (max-width:992px) {
-      justify-content:center;
+    @media only screen and (max-width: 992px) {
+      justify-content: center;
     }
-    @media only screen and (max-width:350px) {
-     flex-direction: column;
+    @media only screen and (max-width: 350px) {
+      flex-direction: column;
     }
   }
 }

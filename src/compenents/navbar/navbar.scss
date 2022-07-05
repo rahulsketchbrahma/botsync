@@ -6,23 +6,68 @@
     background: transparent;
     display: flex;
     align-items: center;
-    .menu {
+    ul {
       margin-left: auto;
       a {
-        color:$secondary-color;
-        @include  typeface-medium-16($line-height: 20px);
+        color: $secondary-color;
+        @include typeface-medium-16($line-height: 20px);
         padding-right: 48px;
+        @media only screen and (max-width: 850px) {
+          display: none;
+        }
       }
-      a:last-child{
+      a:last-child {
         border: 1px solid $primary-color;
-        padding:14px 32px;
+        padding: 14px 32px;
         border-radius: 56px;
       }
     }
-  }
-  @media only screen and (max-width: 850px) {
-      .menu{
-        display: none;
+    @media only screen and (max-width: 850px) {
+      #hidden {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 50vh;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 40px;
+        a {
+          display: block;
+        }
+
+        .navClose {
+          display: block;
+          padding: 20px 40px;
+          position: fixed;
+          top:0;
+          right:0;
+          padding-top: 40px;
+          background-color: transparent;
+          border:none;
+          color: $secondary-color;
+          font-size: 20px;
+        }
       }
+    }
+  }
+  .navButton {
+    display: none;
+    padding: 7px 15px;
+    background-color: transparent;
+    border:none;
+    color: $secondary-color;
+    font-size: 20px;
+    @media only screen and (max-width: 850px) {
+      display: block;
+    }
+  }
+  .navClose {
+    display: none;
+   
   }
 }

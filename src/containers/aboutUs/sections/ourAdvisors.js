@@ -23,7 +23,7 @@ const OurAdvisors = () => {
                 <img src={customer} />
               </div>
               <div className="cutomerName">
-                <h1>ROGER CROOK</h1>
+                <h6>ROGER CROOK</h6>
                 <img src={indeedLogo} />
               </div>
               <div className="description">
@@ -41,7 +41,7 @@ const OurAdvisors = () => {
                 <img src={customers} />
               </div>
               <div className="cutomerName">
-                <h1>WOLFGANG LEHMACHER</h1>
+                <h6>WOLFGANG LEHMACHER</h6>
                 <img src={indeedLogo} />
               </div>
               <div className="description">
@@ -59,7 +59,7 @@ const OurAdvisors = () => {
                 <img src={person} />
               </div>
               <div className="cutomerName">
-                <h1>KASHYAP CHANDRASEKHAR</h1>
+                <h6>KASHYAP CHANDRASEKHAR</h6>
                 <img src={indeedLogo} />
               </div>
               <div className="description">
@@ -76,7 +76,7 @@ const OurAdvisors = () => {
                 <img src={customers} />
               </div>
               <div className="cutomerName">
-                <h1>NALIN ADVANI</h1>
+                <h6>NALIN ADVANI</h6>
                 <img src={indeedLogo} />
               </div>
               <div className="description">
@@ -93,7 +93,7 @@ const OurAdvisors = () => {
                 <img src={customerThree} />
               </div>
               <div className="cutomerName">
-                <h1>RAGHAV KANORIA</h1>
+                <h6>RAGHAV KANORIA</h6>
                 <img src={indeedLogo} />
               </div>
               <div className="description">

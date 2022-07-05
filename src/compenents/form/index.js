@@ -53,7 +53,7 @@ function Forms() {
             </div>
           </div>
         </form>
-        <button>Request a Demo</button>
+        <button className="commonButton">Request a Demo</button>
       </div>
     </section>
   );

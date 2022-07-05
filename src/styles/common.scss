@@ -36,3 +36,11 @@ body {
     @include typeface-medium-16;
   }
 }
+
+.commonButton {
+  background-color: $primary-color;
+  color: $secondary-color;
+  @include typeface-medium-16;
+  border: 1px solid $primary-color;
+  border-radius: 56px;
+}
