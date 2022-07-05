@@ -22,7 +22,7 @@ const OurValues = () => {
                 <img src={icon} alt="" />
               </div>
               <div className="frame">
-                <h1>simplicity</h1>
+                <h6>simplicity</h6>
                 <p>
                   Automation should no longer be seen as desktop from the
                   1980’s. We are here to build the smartphone equivalent of
@@ -35,7 +35,7 @@ const OurValues = () => {
                 <img src={customerCentric} alt="" />
               </div>
               <div className="frame">
-                <h1>Customer Centric</h1>
+                <h6>Customer Centric</h6>
                 <p>
                   Building a product is easy, but building a product that our
                   customers can’t live without is what we need to do. Listen
@@ -49,7 +49,7 @@ const OurValues = () => {
                 <img src={safety} alt="" />
               </div>
               <div className="frame">
-                <h1>Safety & Reliability</h1>
+                <h6>Safety & Reliability</h6>
                 <p>
                   Safety is at the core of everything we build. Obsess over
                   safety and reliability to provide users a trustworthy product.
@@ -61,7 +61,7 @@ const OurValues = () => {
                 <img src={last} alt="" />
               </div>
               <div className="frame">
-                <h1>Collaboration</h1>
+                <h6>Collaboration</h6>
                 <p>
                   We can’t build and provide everything our customers need.
                   Where we can’t, we work with partners, and so should our

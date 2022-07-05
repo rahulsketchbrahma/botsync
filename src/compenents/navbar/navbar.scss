@@ -10,9 +10,11 @@
       margin-left: auto;
       a {
         color: $secondary-color;
+        padding-left: 40px;
         @include typeface-medium-16($line-height: 20px);
         @media only screen and (max-width: 850px) {
           display: none;
+          padding: 0;
         }
       }
       a:last-child {

@@ -17,8 +17,9 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container">
         <div className="navbarContainer">
-          <img src={Logo} />
-
+          <a href="/">
+            <img src={Logo} />
+          </a>
           <ul id={showLinks ? "hidden" : ""}>
             <a href="/">Industrial Automation</a>
             <a href="/">Botsync Labs</a>

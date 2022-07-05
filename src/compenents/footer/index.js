@@ -41,7 +41,9 @@ const Footer = () => {
           </div>
           <div className="footerInfo">
             <div className="infoContent">
-              <img src={Logo} />
+              <a href="/">
+                <img src={Logo} />
+              </a>
               <p>
                 We build AMR automation solution that is deployable within days
                 for intralogistics operations in warehouses and factories.
@@ -137,14 +139,10 @@ const Footer = () => {
             <div className="policy">
               <ul>
                 <li>
-                  <a href="/">
-                    Privacy Policy
-                  </a>
+                  <a href="/">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="/">
-                    Terms of Service
-                  </a>
+                  <a href="/">Terms of Service</a>
                 </li>
               </ul>
             </div>
